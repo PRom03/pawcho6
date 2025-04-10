@@ -12,7 +12,7 @@ WORKDIR /app
 
 # SSH mount: pozwala na użycie klucza SSH hosta w kontenerze
 RUN --mount=type=ssh \
-    git clone git@github.com:twoj-login/pawcho6.git /app
+    git clone git@github.com:prom03/pawcho6.git /app
 
 # Budowanie aplikacji
 RUN echo 'package main' > main.go \
